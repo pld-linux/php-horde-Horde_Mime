@@ -11,7 +11,7 @@ License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
 # Source0-md5:	317932e2ae0170b4337d1d5328cfc979
-URL:		http://pear.horde.org/package/Horde_Mime/
+URL:		https://github.com/horde/horde/tree/master/framework/Mime/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
