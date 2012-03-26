@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde MIME Library
 Name:		php-horde-Horde_Mime
-Version:	1.2.1
+Version:	1.5.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	72c50eb27b37cb21d6a94986eb11f8b0
+# Source0-md5:	fc481f58a1cc8afd50b5266e5d46ec54
 URL:		https://github.com/horde/horde/tree/master/framework/Mime/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
@@ -26,6 +26,7 @@ Requires:	php-horde-Horde_Text_Flowed < 2.0.0
 Requires:	php-horde-Horde_Translation < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
+Suggests:	php(intl)
 Suggests:	php-horde-Horde_Nls
 Suggests:	php-horde-Horde_Text_Filter
 Suggests:	php-pear-Net_DNS2
