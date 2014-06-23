@@ -26,11 +26,11 @@ Requires:	php-horde-Horde_Text_Flowed < 2.0.0
 Requires:	php-horde-Horde_Translation < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
+Suggests:	php(idn)
 Suggests:	php(intl)
 Suggests:	php-horde-Horde_Nls
 Suggests:	php-horde-Horde_Text_Filter
 Suggests:	php-pear-Net_DNS2
-Suggests:	php-pecl-idn
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
