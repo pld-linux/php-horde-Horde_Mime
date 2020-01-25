@@ -2,7 +2,6 @@
 # - use system locale location
 %define		status		stable
 %define		pearname	Horde_Mime
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde MIME Library
 Name:		php-horde-Horde_Mime
 Version:	1.6.1
